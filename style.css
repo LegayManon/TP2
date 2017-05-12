@@ -4,13 +4,25 @@
 	background: #fff;
 }
 
+/*lien*/
+a {
+    color: white;
+}
+
 #header
 {
-	background: #ccc;
+	background: #6CCABD;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header:hover {
+    background-color: sandybrown;
+}
+
+#header h1 { 
+    margin: 0; 
+    color: floralwhite;
+}
 
 #navigation
 {
@@ -50,7 +62,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #6CCABD;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
@@ -58,11 +70,16 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color: cadetblue;
+}
+
+#edito:hover {
+    background-color: chocolate;
 }
 
 #edito h2
 {
-	color: #000;
+	color: #fff;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,13 +100,27 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-color:darkcyan; 
+} 
+
+#news:hover {
+    background-color: burlywood;
+}
+
+#news h2, h3 {
+    color: #fff;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background-color: #6CCABD;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    color: floralwhite;
+}
+
+#footer:hover {
+    background-color: deepskyblue;
 }
